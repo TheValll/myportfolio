@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@font-face {
+    font-family: Poppins;
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;
+}
+/* Colors bleu clair : #4070F4 bleu foncé :  */
+body{
+    animation: apparition 0.8s ease-out;
+    font-family: Poppins;
+    background: whitesmoke;
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.toplogo{
+    margin-left: 43%;
+}
+.menulist{
+    margin-top: 45px;
+    margin-right: 43%;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.body-center{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.texte{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+.texte-name{
+    color: #4070F4;
+}
+.powered{
+    display: flex;
+    justify-content: center;
+    padding-top: 270px;
+    flex-wrap: wrap;
+}

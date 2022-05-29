@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@font-face {
+    font-family: Poppins;
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+}
+@keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;
+}
+body{
+    animation: apparition 0.8s ease-out;
+    font-family: Poppins;
+    background-image: url(assets/bgabout.jpeg);
+}
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.toplogo{
+    margin-left: 43%;
+}
+.menulist{
+    margin-top: 45px;
+    margin-right: 43%;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.me{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 19px;
+}
+.CV{
+    margin-top: 50px;
+    margin-left: 45%;
+}
+.powered{
+    display: flex;
+    justify-content: center;
+    padding-top: 280px;
+    flex-wrap: wrap;
+}
